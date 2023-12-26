@@ -1,7 +1,7 @@
-function SingleJoke() {
+function SingleJoke(props) {
   return (
     <div className="content">
-      <h2 className="joke">the is just a text</h2>
+      <h2 className="joke"> {props.data.joke}</h2>
     </div>
   );
 }
